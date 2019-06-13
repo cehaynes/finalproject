@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186896F722B2C3A900C1F408 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186896F622B2C3A900C1F408 /* TimerViewController.swift */; };
 		18C7ABFB22B1583D00862621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7ABFA22B1583D00862621 /* AppDelegate.swift */; };
 		18C7ABFD22B1583D00862621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7ABFC22B1583D00862621 /* ViewController.swift */; };
 		18C7AC0022B1583D00862621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7ABFE22B1583D00862621 /* Main.storyboard */; };
 		18C7AC0322B1583D00862621 /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C7AC0122B1583D00862621 /* finalProject.xcdatamodeld */; };
 		18C7AC0522B1583E00862621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C7AC0422B1583E00862621 /* Assets.xcassets */; };
 		18C7AC0822B1583E00862621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7AC0622B1583E00862621 /* LaunchScreen.storyboard */; };
+		18EDB78022B18FFC008F3796 /* MyToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDB77F22B18FFC008F3796 /* MyToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186896F622B2C3A900C1F408 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		18C7ABF722B1583D00862621 /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7ABFA22B1583D00862621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C7ABFC22B1583D00862621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		18C7AC0422B1583E00862621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C7AC0722B1583E00862621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C7AC0922B1583E00862621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDB77F22B18FFC008F3796 /* MyToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				18C7ABFA22B1583D00862621 /* AppDelegate.swift */,
 				18C7ABFC22B1583D00862621 /* ViewController.swift */,
 				18C7ABFE22B1583D00862621 /* Main.storyboard */,
+				186896F622B2C3A900C1F408 /* TimerViewController.swift */,
 				18C7AC0422B1583E00862621 /* Assets.xcassets */,
 				18C7AC0622B1583E00862621 /* LaunchScreen.storyboard */,
 				18C7AC0922B1583E00862621 /* Info.plist */,
 				18C7AC0122B1583D00862621 /* finalProject.xcdatamodeld */,
+				18EDB77F22B18FFC008F3796 /* MyToDo.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186896F722B2C3A900C1F408 /* TimerViewController.swift in Sources */,
 				18C7ABFD22B1583D00862621 /* ViewController.swift in Sources */,
 				18C7AC0322B1583D00862621 /* finalProject.xcdatamodeld in Sources */,
 				18C7ABFB22B1583D00862621 /* AppDelegate.swift in Sources */,
+				18EDB78022B18FFC008F3796 /* MyToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AGM2HX2UWK;
+				DEVELOPMENT_TEAM = 2F8K43SX82;
 				INFOPLIST_FILE = finalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Chloe.finalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = Ray.finalproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AGM2HX2UWK;
+				DEVELOPMENT_TEAM = 2F8K43SX82;
 				INFOPLIST_FILE = finalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Chloe.finalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = Ray.finalproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
