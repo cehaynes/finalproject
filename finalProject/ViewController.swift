@@ -15,7 +15,7 @@ class ViewController: UITableViewController {
         // Do any additional setup after loading the view.
         
         
-        self.title = "To-Dos & Goals"
+        self.title = "To-Dos"
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(ViewController.didTapAddItemButtom(_:)))
         

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185C7CBC22B2F34E003832A5 /* exampleJournalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C7CBB22B2F34E003832A5 /* exampleJournalCollectionViewController.swift */; };
+		185C7CBE22B2FB24003832A5 /* oldNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C7CBD22B2FB24003832A5 /* oldNotesViewController.swift */; };
 		186896F722B2C3A900C1F408 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186896F622B2C3A900C1F408 /* TimerViewController.swift */; };
+		186896F922B2ECEB00C1F408 /* questionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186896F822B2ECEB00C1F408 /* questionsTableViewController.swift */; };
 		18C7ABFB22B1583D00862621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7ABFA22B1583D00862621 /* AppDelegate.swift */; };
 		18C7ABFD22B1583D00862621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7ABFC22B1583D00862621 /* ViewController.swift */; };
 		18C7AC0022B1583D00862621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7ABFE22B1583D00862621 /* Main.storyboard */; };
@@ -18,7 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185C7CBB22B2F34E003832A5 /* exampleJournalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleJournalCollectionViewController.swift; sourceTree = "<group>"; };
+		185C7CBD22B2FB24003832A5 /* oldNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldNotesViewController.swift; sourceTree = "<group>"; };
 		186896F622B2C3A900C1F408 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		186896F822B2ECEB00C1F408 /* questionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsTableViewController.swift; sourceTree = "<group>"; };
 		18C7ABF722B1583D00862621 /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7ABFA22B1583D00862621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C7ABFC22B1583D00862621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				18C7AC0922B1583E00862621 /* Info.plist */,
 				18C7AC0122B1583D00862621 /* finalProject.xcdatamodeld */,
 				18EDB77F22B18FFC008F3796 /* MyToDo.swift */,
+				186896F822B2ECEB00C1F408 /* questionsTableViewController.swift */,
+				185C7CBB22B2F34E003832A5 /* exampleJournalCollectionViewController.swift */,
+				185C7CBD22B2FB24003832A5 /* oldNotesViewController.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -145,9 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				186896F722B2C3A900C1F408 /* TimerViewController.swift in Sources */,
+				185C7CBC22B2F34E003832A5 /* exampleJournalCollectionViewController.swift in Sources */,
+				186896F922B2ECEB00C1F408 /* questionsTableViewController.swift in Sources */,
 				18C7ABFD22B1583D00862621 /* ViewController.swift in Sources */,
 				18C7AC0322B1583D00862621 /* finalProject.xcdatamodeld in Sources */,
 				18C7ABFB22B1583D00862621 /* AppDelegate.swift in Sources */,
+				185C7CBE22B2FB24003832A5 /* oldNotesViewController.swift in Sources */,
 				18EDB78022B18FFC008F3796 /* MyToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

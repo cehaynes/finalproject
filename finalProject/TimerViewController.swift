@@ -21,7 +21,7 @@ class TimerViewController: UIViewController {
     
     
     
-    var seconds = 301
+    var seconds = 300
     var timer = Timer()
     var isTimerRunning = false
     
